@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#48A88E</color>
+    <color name="colorPrimaryDark">#398776</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="UnselectedText">#EDEDED</color>
+    <color name="defaultText">#6E6E6E</color>
+    <color name="placeName">#555555</color>
+</resources>

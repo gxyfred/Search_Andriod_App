@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:padding="3dip"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/address"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_address"
+            android:text="Los Angeles"
+            android:padding="3dip"
+            android:layout_marginStart="57sp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:padding="3dip"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/phone_number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_phone_number"
+            android:text="8594477667"
+            android:autoLink="phone"
+            android:padding="3dip"
+            android:layout_marginStart="11sp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginVertical="5sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Level"
+            android:padding="3dip"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/price_level"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_price_level"
+            android:text="$$"
+            android:padding="3dip"
+            android:layout_marginStart="37sp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating"
+            android:padding="3dip"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/rating"/>
+        <RatingBar
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            style="?android:attr/ratingBarStyleSmall"
+            android:paddingTop="5dp"
+            android:layout_marginStart="68sp"
+            android:numStars="5"
+            android:rating="3"
+            android:id="@+id/rb_info_rating"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginVertical="5sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google Page"
+            android:padding="3dip"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/google_page"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_google_page"
+            android:text="www.google.com"
+            android:autoLink="web"
+            android:padding="3dip"
+            android:layout_marginStart="27sp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website"
+            android:padding="3dip"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/website"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_website"
+            android:text="www.usc.edu"
+            android:autoLink="web"
+            android:padding="3dip"
+            android:layout_marginStart="57sp"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
